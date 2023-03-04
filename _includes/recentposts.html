@@ -3,7 +3,6 @@
   <u><h2>Πρόσφατες Ανακοινώσεις</h2></u>
     {% for post in site.posts limit:5 %}
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		{{ post.excerpt }}
 		Ημερομηνία Δημοσίευσης: {{ post.date | date: '%d/%m/%Y' }}
       <hr style=" border: 2px solid black;border-radius: 1px;">
     {% endfor %}
