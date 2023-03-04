@@ -1,0 +1,17 @@
+---
+layout: post
+title: ΑΝΑΚΟΙΝΩΣΕΙΣ
+background: '/img/header.webp'
+---
+
+<div class="recent-posts" style="text-align:center;">
+  
+    {% for post in site.posts %}
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		{{ post.excerpt }}
+		Ημερομηνία Δημοσίευσης: {{ post.date | date: '%d/%m/%Y' }}
+      <hr style=" width:100%; border: 6px solid black;border-radius: 5px;">
+    {% endfor %}
+  
+
+</div>
