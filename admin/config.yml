@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: sujaykundu777/sujaykundu777.github.io
+  repo: f20f20/f20f20.github.io
   branch: master
-  site_domain: agitated-northcutt-53b578.netlify.app
+  site_domain: https://joyful-elf-4cf240.netlify.app
 
 media_folder: "assets/img/posts" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/img/posts" # The src attribute for uploaded media will begin with /images/uploads
