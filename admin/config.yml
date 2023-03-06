@@ -1,10 +1,8 @@
 # config.yml
 
 backend:
-  name: github
-  repo: F20F20/website-dypa-komotini # Path to your GitHub repository
-  # optional, defaults to master
-  # branch: main
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
